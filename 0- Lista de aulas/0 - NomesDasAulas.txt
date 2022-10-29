@@ -1,0 +1,401 @@
+\tópicos:
+- Instruções de entrada e saída     - OK
+- Variáveis                         - OK
+- Tipos de dados                    - OK
+- Operadores relacionais e lógicos  - OK
+- Estruturas de decisão             - OK
+- Estruturas de repetição           - OK
+- Vetor e matriz                    - OK
+- Strings                           - OK
+- Funções e procedimentos           - OK
+- Struct                            - OK
+- Ponteiros                         - OK
+- Listas encadeadas                 - 
+- Pilhas                            - DEPOIS DA PROVA
+- Filas                             - DEPOIS DA PROVA
+- Árvores                           - DEPOIS DA PROVA
+- Tabela hash                       - DEPOIS DA PROVA
+- Grafos                            - DEPOIS DA PROVA
+
+1 – Introdução à Linguagem C
+
+Aula 001 - Como fazer comentários em meu código C
+Aula 002 - Imprimindo informações com a função printf e caractere nova linha
+Aula 003 - Não use a função system ("pause")
+Aula 004 - Como criar variáveis e ler números inteiros com a função scanf
+Aula 005 - Como criar variáveis e ler números reais com a função scanf?
+Aula 006 - Como criar variáveis e ler caracteres com a função scanf?
+Aula 007 - Como criar variáveis e ler caracteres com a função getchar?
+Aula 008 - Como criar variáveis e ler caracteres com a função getc??
+Aula 009 - Como criar variáveis e ler caracteres com a função fgetc?
+Aula 010 - Como ler vários valores do teclado com a função scanf()
+Aula 011 - Exercício | Como ler sexo, idade, peso e altura do usuário?
+Aula 012 - Problema ao ler caracter com a linguagem C
+Aula 013 - Como ler 2 caracteres e limpar o buffer do teclado com um espaço?
+Aula 014 - Como limpar o buffer do teclado com a função scanf()?
+Aula 015 - Unidades de medidas na computação bit byte kB MB GB TB PB EB ZB YB
+Aula 016 - Como descobrir o tamanho em memória de cada tipo de dado?
+Aula 017 - Reduzindo o consumo de memória com o operador short
+Aula 018 - Reduzindo o consumo de memória com o operador short
+Aula 019 - Como aumentar o espaço de memória para um int com o operador long
+Aula 020 - Qual o tamanho em memória de um float?
+Aula 021 - O tipo primitivo double para números reais com precisão dupla
+Aula 022 - Como usar o operador long para o tipo primitivo double?
+Aula 023 - O que são caracteres de escape \n, \t, \", \' e \\?
+Aula 024 - Como usar as operações básicas da matemática na linguagem C?
+Aula 025 - O que significa Casting ou conversão de tipos na linguagem C?
+Aula 026 - Como usar o operador de resto da divisão %?
+Aula 027 - Como funciona o operador de incremento ++?
+Aula 028 - Como funciona o operador de decremento --?
+Aula 029 - O que é operador unsigned? [número sem sinal]
+Aula 030 - Acentuação e a tabela ASCII
+Aula 031 - Lista de Exercícios
+Aula 032 - Exercício 2: Como TROCAR os valores de duas variáveis?
+Aula 033 - Trocar valores de duas variáveis sem usar uma variável auxiliar
+Aula 034 - Exercício 4: Calculando gorjeta e dividindo conta de restaurante
+Aula 035 - Exercício 5: Como calcular o valor a ser pago ao encanador
+Aula 036 - Exercício 6: Como converter valor em Real para Dólar
+Aula 037 - Exercício 7: Convertendo segundos em horas, minutos e segundos
+
+2 – Estruturas de decisão e seleção em C
+
+Aula 038 - O que são operadores relacionais
+Aula 039 - Estrutura de decisão. Verificando se um número é negativo
+Aula 040 - Estrutura de decisão. Verificando se um número é negativo
+Aula 041 - Verdadeiro e falso na linguagem C
+Aula 042 - Endentação e uso das chaves na linguagem C
+Aula 043 - O operador ternário na linguagem C
+Aula 044 - Decisão aninhadas na linguagem C [operador if/else aninhados]
+Aula 045 - O operador ternário aninhado na linguagem C
+Aula 046 - O operador lógico de negação ! na linguagem C
+Aula 047 - O operador lógico e (&&) na linguagem C (Conjunção)
+Aula 048 - O operador lógico ou (||) na linguagem C (Disjunção)
+Aula 049 - Estrutura de decisão else if encadeados na linguagem C
+Aula 050 - Estrutura de seleção switch case | aula 50
+Aula 051 - Estrutura de seleção switch case com caracter 
+Aula 052 - Exercício 1: Como encontrar o maior e o menor entre três números
+Aula 053 - Exercício 2: Contando números positivos e negativos
+Aula 054 - Ex 3 Leia um número e diga se é divisível por 2, por 3 ou por 5
+Aula 055 - Ex 4: Conversão cambial de Real para Dólar ou de Dólar para Real
+Aula 056 - Exercício 5: Calcular o índice de massa corporal (IMC)
+Aula 057 - Leia um inteiro e diga se corresponde a um mês válido no calendário
+Aula 058 - Exercício 7: Leia um caractere e diga se é vogal ou consoante.
+Aula 059 - Exercício 8: Dado o número do mês, diga quantos dias têm esse mês 
+Aula 060 - Dado o número do mês, diga quantos dias têm esse mês (versão 2) 
+Aula 061 - Exercício 9: Como calcular a média aritmética e ponderada 
+Aula 062 - Ex 9: Como calcular a média aritmética e ponderada (versão 2)
+Aula 063 - Três valores formam um triângulo equilátero, isósceles ou escaleno?
+
+3 – Estruturas de repetição em C
+
+Aula 064 - Estrutura de repetição for (para)
+Aula 065 - Estrutura de repetição for decrescente
+Aula 066 - Estrutura de repetição for com incremento diferente de 1
+Aula 067 - Estrutura de repetição while (enquanto) 
+Aula 068 - Estrutura de repetição do while (faça enquanto)
+Aula 069 - Diferença entre as estruturas de repetição for, while e do while
+Aula 070 - Exercício 1 | Leia um número, calcule e imprima sua tabuada
+Aula 071 - Exercício 2 | Repita a leitura de uma senha até que seja válida
+Aula 072 - Ex 3 | Some os números ímpares de 1 a 1000 e imprima o resultado 
+Aula 073 - Ex 4 | Some os números ímpares de 1 a 1000 (mais eficiente)
+Aula 074 - Exercício 5 | Validar as notas de um aluno e calcular sua média
+Aula 075 - Ex 6 | Imprima na tela todos os múltiplos de 7 entre 1 e 9999 
+Aula 076 - Exercício 7 | Apresente o quadrado de cada valor par de 1 até N
+Aula 077 - Faça uma calculadora para as 4 operações matemáticas com switch
+Aula 078 - Exercício 9 | Faça um programa para calcular o somatório de 1 a n
+Aula 079 - Calcular quanto dinheiro você guardou em 30 dias
+Aula 080 - Tempo para material radioativo ter massa reduzida a 0,05 gramas
+Aula 081 - Calcule a idade média e altura média de uma turma de alunos 
+Aula 082 - Leia um número inteiro maior que 1 e diga se ele é primo
+Aula 083 - Como debugar seu programa no Code Blocks executando linha a linha
+Aula 084 - Faça um programa que calcule a média salarial de uma empresa
+Aula 085 - Como calcular a multiplicação sem usar o operador de multiplicação 
+Aula 086 - Encontrar o menor número inteiro divisível pelos números de 1 a 10
+Aula 087 - Leia números e conte quantos positivos e negativos foram digitados 
+Aula 088 - Calcule a média de idade e salário de x pessoas |
+Aula 089 - Ex 19 | Leia coordenadas X Y e diga o quadrante a que pertencem 
+Aula 090 - Diferença entre os operadores lógicos && e & 
+Aula 091 - Exercício 20 | Quantos grãos de trigo a rainha pagou ao monge?
+Aula 092 - Exercício 21 | Estrutura de repetição para (for) aninhados
+Aula 093 - Quantos anos serão necessários para que Zé seja maior que Chico? 
+Aula 094 - Escreva um programa que gere como saída meio triângulo com * 
+Aula 095 - Descubra a relação entre I e J e imprima a sequência correta
+Aula 096 - Imprima a sequência de 1 até Y com X números por linha 
+Aula 097 - Exe. 26 | Ler duas notas válidas e calcular e imprimir sua média 
+
+4 – Estruturas de Dados Homogêneas – Vetor e Matriz (arrays) – em C
+
+Aula 098 - Estrutura de dados homogênea do tipo vetor (array unidimensional)
+Aula 099 - Como criar um vetor (array unidimensional)?
+Aula 100 - Como imprimir o conteúdo de um vetor (array)?
+Aula 101 - Como ler um vetor (array) a partir do teclado?
+Aula 102 - Como alterar o conteúdo de um vetor (array)?
+Aula 103 - Como gerar números aleatórios com as funções rand e srand?
+Aula 104 - Gerar números aleatórios com a função rand dentro de um intervalo
+Aula 105 - O que são matrizes (arrays bidimensionais)?
+Aula 106 - Como criar uma matriz (array bidimensional)?
+Aula 107 - Como imprimir o conteúdo de uma matriz (array bidimensional)?
+Aula 108 - Como ler uma matriz (array bidimensional) a partir do teclado?
+Aula 109 - Somar duas matrizes e salvar o resultado em uma terceira matriz
+Aula 110 - Gerando números aleatórios com as funções rand() e srand()
+Aula 111 - Preencher um vetor B com o quadrado de cada elemento do vetor A
+Aula 112 - Some dois vetores e salve o resultado em um terceiro vetor
+Aula 113 - Exercício 3 | Como trocar a ordem dos elementos de um vetor
+Aula 114 - Ex 4 | Como calcular as vendas de uma pequena loja com vetores
+Aula 115 - Exer 5 | Como descobrir a maior e a menor temperatura do ano? 
+Aula 116 - Ex 6 | Como imprimir um vetor na ordem inversa com a linguagem C 
+Aula 117 - Faça um programa para ordenar um vetor de números inteiros
+Aula 118 - Exercício 8 | Calcule a soma de todos os elementos de uma matriz
+Aula 119 - Ex 9 | Somar linhas e colunas de uma matriz e salvar em vetores
+Aula 120 - Exercício 10 | Como somar as matrizes A e B e salvar na matriz C
+Aula 121 - Exercício 11 | Imprima a diagonal principal de uma matriz 5 x 5
+Aula 122 - Exercício 12 | Imprima a diagonal secundária de uma matriz 7 x 7
+Aula 123 - Faça um programa para calcular a transposta de uma matriz 5 x 4
+Aula 124 - Imprima os valores abaixo da diagonal principal de uma matriz
+Aula 125 - Como gerar números aleatórios com a função rand() sem repetição?
+Aula 126 - Como descobrir se uma matriz é um quadrado mágico?
+Aula 127 - Faça o JOGO DA VELHA com a linguagem de programação C
+
+5 – Strings em C
+
+Aula 128 - STRING com a linguagem de programação C 
+Aula 129 - Como ler uma String com a função scanf()?
+Aula 130 - Como ler uma String com a função gets()?
+Aula 131 - Como ler uma String com a função fgets() na linguagem de programação C?
+Aula 132 - Como identificar o fim de uma String?
+Aula 133 - Como descobrir o tamanho de uma String?
+Aula 134 - Descobrindo o tamanho de uma String com a função strlen()
+Aula 135 - Como concatenar duas Strings com a função strcat()?
+Aula 136 - Como comparar duas Strings com a função strcmp()?
+Aula 137 - Como copiar uma string em C com a função strcpy()?
+Aula 138 - Procurando caracter em uma String com as funções strchr e strrchr
+Aula 139 - Como encontrar uma substring com a função strstr()
+Aula 140 - Converter String para maiúsculo ou minúsculo com strupr e strlwr
+Aula 141 - Como dividir uma String em tokens com a função strtok()? 
+Aula 142 - Matriz de Strings na linguagem de programação C
+Aula 143 - Como descobrir se uma palavra é palíndroma com a linguagem C?
+Aula 144 - Como descobrir se uma frase é palíndroma com a linguagem C?
+
+6 – Modularização – Funções e Procedimentos em C
+
+Aula 145 - O que são FUNÇÕES e PROCEDIMENTOS?
+Aula 146 - Criando uma função que retorna o tamanho de uma string em C
+Aula 147 - Procedimento para imprimir uma string caracter por caracter
+Aula 148 - Variáveis locais, globais e escopo de variáveis 
+Aula 149 - Procedimento imprimir matriz. Função para somar linha da matriz 
+Aula 150 - Função que calcule e retorne a soma de uma coluna da matriz
+Aula 151 - Converter string em MAIÚSCULO ou MINÚSCULO com toupper e tolower
+Aula 152 - Como converter um número em texto na linguagem C?
+Aula 153 - Funções e procedimentos recursivos com a linguagem C
+Aula 154 - Como funciona um processo recursivo?
+Aula 155 - Como calcular o fatorial com recursão?
+Aula 156 - Como funciona a recursão para calcular o fatorial de um número?
+Aula 157 - Calcular o enésimo termo da sequência de FIBONACCI com recursão
+Aula 158 - Porque você não deve usar FIBONACCI RECURSIVO!
+Aula 159 - Função potência recursiva que retorne o valor de x elevado n
+Aula 160 - Como calcular o somatório de 1 até n com recursão?
+Aula 161 - Como somar os elementos de um vetor com recursão?
+Aula 162 - Como descobrir o maior elemento de um vetor com recursão?
+Aula 163 - Como inverter a posição dos elementos de um vetor com recursão? 
+Aula 164 - Como converter um número decimal em binário?
+Aula 165 - Como converter um número decimal em binário?
+
+7 – Novos tipos de dados com typedef struct em C
+
+Aula 166 - JOGO DA VELHA com funções e procedimentos
+Aula 167 - Como criar novos tipos de dados em C com TYPEDEF STRUCT?
+Aula 168 - Como preencher uma STRUCT com dados lidos do teclado?
+Aula 169 - Posso usar uma STRUCT dentro de outra STRUCT?
+Aula 170 - De quanta memória uma STRUCT precisa?
+Aula 171 - Como imprimir um triângulo de asteriscos com espaços à esquerda?
+Aula 172 - Como passar uma struct como parâmetro para um procedimento?
+Aula 173 - Como criar uma função que retorna uma struct? 
+Aula 174 - Como criar um vetor (array unidimensional) de struct?
+Aula 175 - Como criar uma matriz (array bidimensional) de struct?
+Aula 176 - Como construir o tipo ELETRÔNICO com TYPEDEF STRUCT?
+Aula 177 - Vamos desenvolver o JOGO CAMPO MINADO | Jogo Campo Minado Parte 1
+Aula 178 - Estrutura do nosso CAMPO MINADO | Jogo Campo Minado Parte 2
+Aula 179 - Quantidade de bombas na vizinhança | Jogo Campo Minado Parte 3 
+Aula 180 - Como imprimir o jogo Campo Minado? | Jogo Campo Minado Parte 4
+Aula 181 - Como imprimir o jogo Campo Minado? | Jogo Campo Minado Parte 4
+Aula 182 - Vitória e derrota no jogo campo minado | Campo Minado Parte 6 
+Aula 183 - Testando nosso JOGO CAMPO MINADO
+
+8 – Ponteiros em C
+
+Aula 184 - O que é e como criar um ponteiro na linguagem C? 
+Aula 185 - Qual o tamanho de um ponteiro na linguagem C?
+Aula 186 - Por que não usamos & ao ler uma string com a função scanf?
+Aula 187 - Ponteiro como parâmetro para uma função ou procedimento
+Aula 188 - Vetor é sempre um ponteiro?
+Aula 189 - Entendendo aritmética de ponteiros com vetor
+Aula 190 - Como criar um ponteiro para struct?
+Aula 191 - Existe ponteiro pra ponteiro? 
+Aula 192 - Encontrar o maior e o menor elemento de um vetor com ponteiros
+Aula 193 - Trocar o conteúdo de duas variáveis por meio de ponteiros
+Aula 194 - Imprimir endereço e conteúdo de cada posição de um vetor 
+Aula 195 - Como realizar multiplicações com ponteiros de ponteiros?
+Aula 196 - Nossa função strcpy para fazer a cópia de uma string
+
+9 – Alocação dinâmica de memória em C
+
+Aula 197 - Alocação dinâmica de memória com a função MALLOC
+Aula 198 - Alocação dinâmica de memória com a função CALLOC
+Aula 199 - Como alocar um vetor dinâmico na linguagem C?
+Aula 200 - Como aumentar o tamanho de um vetor com a função realloc?
+Aula 201 - Como liberar memória alocada dinamicamente com a função free()?
+Aula 202 - Como alocar uma matriz dinâmica em C?
+Aula 203 - Dúvida | Ler nome e nota de três estudantes e imprimir uma tabela 
+Aula 204 - Como percorrer uma matriz dinâmica com aritmética de ponteiros?
+Aula 205 - Dúvida | Como fazer uma função para inverter uma string em C?
+Aula 206 - Como liberar a memória de uma matriz dinâmica com a função free?
+Aula 207 - Qual a diferença entre as funções malloc e calloc?
+
+10 – Arquivo texto e arquivo binário em C
+
+Aula 208 - Como escrever em um arquivo texto com a função fputc()?
+Aula 209 - Como ler em um arquivo texto com a função fgetc()?
+Aula 210 - Leitura e escrita em arquivo com funções e procedimentos
+Aula 211 - Como escrever texto em um arquivo com a função fputs()? 
+Aula 212 - Como ler texto de um arquivo com a função fgets()?
+Aula 213 - Como escrever em um arquivo com a função fprintf()?
+Aula 214 - Como ler um arquivo com a função fscanf()? 
+Aula 215 - Como criar uma agenda de aniversário e salvar em arquivo em C 
+Aula 216 - Como salvar nossa agenda de aniversários em um arquivo texto? 
+Aula 217 - Como ler nossa agenda de aniversários em um arquivo texto?
+Aula 218 - Como escrever em arquivo binário com a função fwrite()? 
+Aula 219 - Como ler um arquivo binário com a função fread()? 
+Aula 220 - Como inserir suporte a arquivos binários na agenda de aniversário?
+Aula 221 - Como atualizar registro em arquivo binário com a função fseek?
+Aula 222 - Como remover um arquivo com a função remove?
+
+11 – Estruturas de Dados Dinâmicas
+
+Aula 223 - Estruturas de dados dinâmicas - Pilhas, Filas, Listas, Árvores 
+
+11.1 – Estrutura de Dados Pilha
+
+Aula 224 - Operação push. Como empilhar um dado na estrutura de dados pilha
+Aula 225 - Operação pop. Como desempilhar um nó na estrutura de dados pilha
+Aula 226 - Imprimindo e testando nossa estrutura de dados dinâmica PILHA
+Aula 227 - Segunda versão para a estrutura de dados dinâmica do tipo PILHA
+Aula 228 - Segunda versão para a estrutura de dados dinâmica do tipo PILHA
+Aula 229 - Como simular a recursão com uma estrutura de dados PILHA? 
+Aula 230 - Como criar arquivos de cabeçalho .h na linguagem C? 
+Aula 231 - Verificar se uma expressão matemática está mal formada com PILHA
+Aula 232 - Como inverter a ordem das letras de uma string?
+Aula 233 - Resolver expressão em notação pós-fixa (notação polonesa reversa) 
+
+11.2 – Estrutura de Dados Fila
+
+Aula 234 - Estrutura de dados dinâmica do tipo FILA
+Aula 235 - Desafio da aula 231 - descobrir se uma expressão está mal formada
+Aula 236 - Como inserir um elemento em uma estrutura de dados do tipo FILA?
+Aula 237 - Como remover um elemento em uma estrutura de dados do tipo FILA? 
+Aula 238 - Imprimindo e testando nossa estrutura de dados FILA
+Aula 239 - Estrutura de dados FILA - segunda versão com a estrutura Fila
+Aula 240 - O que são FILAS DE PRIORIDADE?
+Aula 241 - Como implementar a estrutura de dados fila de prioridade em C?
+
+11.3 – Estrutura de Dados Lista Encadeada
+
+Aula 242 - Lista encadeada, lista duplamente encadeada e lista circular 
+Aula 243 - Como inserir no início de uma Lista Simplesmente Encadeada?
+Aula 244 - Como inserir no fim de uma Lista Simplesmente Encadeada?
+Aula 245 - Como inserir no meio de uma Lista Simplesmente Encadeada?
+Aula 246 - Imprimindo e testando nossa lista simplesmente encadeada
+Aula 247 - Estrutura de Dados Lista Simplesmente Encadeada SEGUNDA VERSÃO
+Aula 248 - Como inserir ordenado na estrutura de dados lista encadeada?
+Aula 249 - Como inserir ordenado na estrutura lista encadeada? VERSÃO 2 
+Aula 250 - Como remover um nó da estrutura lista simplesmente encadeada?
+Aula 251 - Como remover um nó da estrutura lista encadeada? Segunda versão
+Aula 252 - Como buscar um elemento em uma lista simplesmente encadeada? 
+Aula 253 - Buscar um elemento em uma lista encadeada com a estrutura lista 
+Aula 254 - Como criar uma lista C a partir de duas listas A e B?
+Aula 255 - Como dividir uma lista encadeada em lista par e lista ímpar?
+Aula 256 - Como criar uma estrutura de dados fila com várias structs?
+Aula 257 - Como construir uma lista duplamente encadeada?
+Aula 258 - Como implementar uma LISTA CIRCULAR? Lista Encadeada Circular
+
+11.4 – Estrutura de Dados Tabela Hash
+
+Aula 259 - O que é e como funciona a estrutura de dados Tabela Hash?
+Aula 260 - Como implementar uma TABELA HASH com vetor na prática?
+Aula 261 - Como implementar uma TABELA HASH com lista encadeada na prática?
+Aula 262 - Como criar uma TABELA HASH com várias structs?
+Aula 263 - Como implementar uma TABELA HASH com STRING na prática?
+
+11.5 – Estrutura de Dados Árvore Binária de Busca
+
+Aula 264 - Estrutura de dados dinâmica Árvore Binária de Busca
+Aula 265 - Como inserir em uma ÁRVORE BINÁRIA? Versão 1
+Aula 266 - Como imprimir uma árvore binária de busca? 2 versões
+Aula 267 - Como inserir em uma ÁRVORE BINÁRIA? Versão 2 sem retorno 
+Aula 268 - Como inserir em uma ÁRVORE BINÁRIA? Versão 3 mais EFICIENTE
+Aula 269 - Como buscar um elemento em uma ÁRVORE BINÁRIA? Versão recursiva
+Aula 270 - Como realizar uma busca em uma ÁRVORE BINÁRIA? Versão iterativa
+Aula 271 - Como calcular a ALTURA de uma árvore binária de busca?
+Aula 272 - Como descobrir a quantidade de nós de uma árvore binária?
+Aula 273 - Como descobrir a quantidade de FOLHAS em uma árvore binária?
+Aula 274 - Como remover um nó folha de uma árvore binária? 
+Aula 275 - Como remover um nó com um filho de uma árvore binária? 
+Aula 276 - Como remover um nó com DOIS filhos em uma árvore binária? 
+Aula 277 - Como criar uma ÁRVORE BINÁRIA de PESSOAS? 
+Aula 278 - Como comprimir dados com Código de Huffman - Algoritmo de Huffman
+Aula 279 - Como imprimir um triângulo com caracteres de uma palavra?
+Aula 280 - Pensando a solução para Código de Huffman - Algoritmo de Huffman
+Aula 281 - Como construir a Tabela de Frequência para o Código de Huffman?
+Aula 282 - Como criar a lista ordenada para o Código (Algoritmo) de Huffman?
+Aula 283 - Como montar a Árvore de Huffman a partir da lista ordenada?
+Aula 284 - Como montar o dicionário para o Algoritmo de Huffman? 
+Aula 285 - Como excluir contato da agenda de aniversário em arquivo texto? 
+Aula 286 - Como codificar (comprimir) texto com o Algoritmo de Huffman?
+Aula 287 - Como decodificar o texto codificado com o Algoritmo de Huffman?
+
+12 – Manipulação de Bits em C
+
+Aula 288 - Deslocamento à esquerda, à direita, operações bit a bit 
+Aula 289 - Operação NOT negação bit a bit e números em Complemento de Dois
+Aula 290 - Operador & bit a bit. Como funciona a operação AND bit a bit?
+Aula 291 - Operador OU | bit a bit. Como funciona a operação OR bit a bit?
+Aula 292 - OU EXCLUSIVO. Como funciona a operação OU EXCLUSIVO bit a bit?
+Aula 293 - Como criar um arquivo COMPACTADO com o Algoritmo de Huffman?
+Aula 294 - Como imprimir os elementos abaixo da diagonal secundária de uma matriz?
+Aula 295 - Como LER nosso arquivo COMPACTADO com o Algoritmo de Huffman?
+Aula 296 - Testando nosso Algoritmo de Huffman (Código de Huffman)
+Aula 297 - Como encontrar o maior quociente de um vetor na divisão de vet[i] por i ? 
+Aula 298 - Algoritmo para resolver uma equação do segundo grau com a fórmula de Bhaskara
+Aula 299 - Como fazer uma função recursiva para calcular a média dos pares de um vetor?
+Aula 300 - O que faz o modificador STATIC na linguagem C? 
+
+13 – Árvore Binária de Busca Balanceada – AVL em C
+
+Aula 301 - O que é uma Arvore AVL - Árvore Binária de Busca Balanceada?
+Aula 302 - Como implementar uma Árvore AVL - Árvore balanceada?
+Aula 303 - Como implementar uma ROTAÇÃO À ESQUERDA em uma árvore AVL?
+Aula 304 - Como implementar uma ROTAÇÃO À DIREITA em uma árvore AVL?
+Aula 305 - Como implementar as ROTAÇÕES DUPLAS em uma árvore AVL?
+Aula 306 - Como inserir em uma árvore binária balanceada - Árvore AVL? 
+Aula 307 - Como remover um nó em uma árvore binária balanceada - Árvore AVL?
+Aula 308 - Como imprimir uma Árvore Binária Balanceada - Árvore AVL?
+Aula 309 - Testando nossa Árvore Binária de Busca Balanceada - Árvore AVL
+Aula 310 - Como descobrir / imprimir o nível de um nó na Árvore Binária?
+Aula 311 - Como garantir que o usuário vai digitar um número?
+Aula 312 - Como contar as ocorrências de uma substring em uma string? 
+Aula 313 - Como descobrir todos os números primos entre 1 e 500?
+Aula 314 - Como converter número decimal em binário e salvar em variável?
+Aula 315 - Como imprimir uma pirâmide de asteriscos? (triângulo isósceles)
+Aula 316 - Como criar uma Árvore Binária Balanceada AVL com Struct Pessoa?
+Aula 317 - Como identificar o Sistema Operacional e limpar o terminal? 
+Aula 318 - Estrutura de dados Árvore 2-3-4 (2-3-4 Tree)
+Aula 319 - Desmistificando PONTEIROS em C (se for possível 😂 😂 😂 😂 😂)
+Aula 320 - Como descobrir o menor elemento de um vetor com recursão?
+Aula 321 - Como Inserir, Imprimir e Buscar em uma ÁRVORE 2 3 4 em C?
+Aula 322 - O que é e como criar um ENUM na linguagem C?
+Aula 323 - Como descobrir quantas e quais letras duas strings têm em comum?
+Aula 324 - Como passar parâmetros para função main Code Blocks e terminal?
+Aula 325 - Como dividir um printf longo em várias linhas em C?
+Aula 326 - Como passar uma matriz dinâmica como parâmetro? 
+Aula 327 - Como imprimir meio triângulo de asteriscos?
+Aula 328 - Como gerar números aleatórios fracionários?
+Aula 329 - Como gerar todas as substrings possíveis de uma string?
