@@ -76,7 +76,7 @@ void addInMap(char mapa[3][3],int jogada, char nomeJog[30], char nomeJog2[30], i
     }
 }
 
-void verificSpace(){
+void verificSpace(){  // Falta implementar
     printf("TESTE");
 }
 
