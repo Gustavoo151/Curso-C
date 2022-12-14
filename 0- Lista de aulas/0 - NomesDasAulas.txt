@@ -1,4 +1,4 @@
-\tópicos:
+tópicos:
 - Instruções de entrada e saída     - OK
 - Variáveis                         - OK
 - Tipos de dados                    - OK
