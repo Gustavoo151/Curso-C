@@ -25,9 +25,6 @@ int main(){
     valo2 = 1;
 
     mundarNume(vector, &valo1, &valo2);
-
-
     
-
     return 0;
 }
