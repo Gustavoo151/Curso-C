@@ -279,7 +279,7 @@ Aula 224 - Operação push. Como empilhar um dado na estrutura de dados pilha
 Aula 225 - Operação pop. Como desempilhar um nó na estrutura de dados pilha
 Aula 226 - Imprimindo e testando nossa estrutura de dados dinâmica PILHA
 Aula 227 - Segunda versão para a estrutura de dados dinâmica do tipo PILHA
-Aula 228 - Segunda versão para a estrutura de dados dinâmica do tipo PILHA
+Aula 228 - Tipo abstrato de Dado
 Aula 229 - Como simular a recursão com uma estrutura de dados PILHA? 
 Aula 230 - Como criar arquivos de cabeçalho .h na linguagem C? 
 Aula 231 - Verificar se uma expressão matemática está mal formada com PILHA
