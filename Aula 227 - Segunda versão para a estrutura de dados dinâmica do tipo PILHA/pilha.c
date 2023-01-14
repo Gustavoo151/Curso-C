@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
-    Aula 226 - Imprindo e testando\
+    Aula 227 - Segundo metodo de criar uma pilha
 */
 
 typedef struct{
@@ -34,25 +34,37 @@ typedef struct no{
 }No;
 
 
+typedef struct{
+    No *topo;
+    int tam;
+}Pilha;
+
+
+void criar_pilha(Pilha *p){
+    p->topo = NULL;
+    p->tam = 0;
+}
+
 // Função para operação push (empilhar)
-No* empilhar(No * topo){  // N* = Um ponteiro para um nó
+void empilhar(Pilha *p){
     No *novo = malloc(sizeof(No));
 
     if(novo){   // Verfica de a memoria foi alocada
-        novo->p = ler_pessoa();   // novo->p recebe a função que ler os dados de uma pessoa 
-        novo->proximo = topo; // Recebe o ponteiro topo que inicialmente é NULL
-        return novo;  // Retorna o novo
+        novo->p = ler_pessoa();   
+        novo->proximo = p->topo; 
+        p->topo = novo;
+        p->tam++;
     }
     else
         printf("\nErro ao alocar memoria...\n");
-    return NULL;
 }
 
 
-No* desempilhar(No **topo){  // Tem que usar ** para passar por referência, pois se usar só um a passagem do parametro vai ser por cópia
-    if(*topo != NULL){
-        No *remover = *topo;  // Remover recebe o elemento do topo
-        *topo = remover->proximo;  // O topo vai ser o próximo elemento após o topo
+No* desempilhar(Pilha *p){ 
+    if(p->topo){
+        No *remover = p->topo;
+        p->topo = remover->proximo; 
+        p->tam--;
         return remover;   // Retorna o elemento removido
     }
     else
@@ -61,22 +73,24 @@ No* desempilhar(No **topo){  // Tem que usar ** para passar por referência, poi
 }
 
 
-void imprimir_pilha(No *topo){
-    printf("\n------------------- PILHA -------------------\n");
-
-    while(topo != NULL){
-        imprimir_Pessoa(topo->p);  // Imprimindo o topo
-        topo = topo->proximo;  // Colocando tedas as outras posições no topo até ser NULL
+void imprimir_pilha(Pilha *p){
+    No *aux = p->topo;
+    printf("\n------------------- PILHA Tam: %d ---------------\n", p->tam);
+    while(aux){
+        imprimir_Pessoa(aux->p);  // Imprimindo o topo
+        aux = aux->proximo;  // Colocando tedas as outras posições no topo até ser NULL
     }
-
     printf("\n----------------- FIM PILHA -----------------\n");
 }
 
 
 
 int main(){
-    No *remover, *topo = NULL;
+    No *remover;
+    Pilha p;
     int opcao;
+
+    criar_pilha(&p);
 
     do{
         printf("0- Sair\n1 - Empilhar\n2 - Desempilhar\n3 - Imprimir\n");
@@ -86,14 +100,15 @@ int main(){
 
         switch(opcao){
             case 1:{
-                topo = empilhar(topo);  // Passando o ponteiro topo
+                empilhar(&p);
                 break;
             }
             case 2:{
-                remover= desempilhar(&topo);   // Tem que passar o endereço de topo, pq lá dentro da função desempilhar eu quero alterar o conteúdo dessa variável aqui
+                remover= desempilhar(&p);   // Tem que passar o endereço de topo, pq lá dentro da função desempilhar eu quero alterar o conteúdo dessa variável aqui
                 if(remover){
                     printf("Elemento removido com sucesso.\n");
                     imprimir_Pessoa(remover->p);
+
                     free(remover);
                 }
                 else
@@ -101,7 +116,7 @@ int main(){
                 break;
             }
             case 3:
-                imprimir_pilha(topo);
+                imprimir_pilha(&p);
                 break;
         }
     }while(opcao != 0);

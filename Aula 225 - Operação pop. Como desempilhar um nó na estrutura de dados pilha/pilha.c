@@ -56,7 +56,6 @@ No* desempilhar(No **topo){  // Tem que usar ** para passar por referência, poi
 }
 
 
-
 int main(){
     No *remover, *topo = NULL;
     int opcao;
