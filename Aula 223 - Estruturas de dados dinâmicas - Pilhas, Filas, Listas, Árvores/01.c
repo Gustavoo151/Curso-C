@@ -10,9 +10,33 @@ Estruturas mais conhecidas:
             -> Push - empilhar, adcionar alguém na pilha 
             -> Pop - Desempilhar, remover alguém da pilha
 
+    -> Detalhe sobre pilhas -> LIFO --> last-in Firt-out (O último a entrar, Primeiro a sair)
+
 -> Filas
+     
+
+
 -> Listas encadeadas
 -> Árvores
 
+Em estruturas de dados estáticas para alocar por exemplo um vertor com 100000 itens pode ser que a memória não tenha um espaço de grande em ordem seguencial para alocar esse vetor. Já com estruturas de dinâmicas são pegadas várias partes da memória em lugares separados, assim sendo mais difícil não estorar a memória.
 
 */
+
+
+//Exemplo
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+    typedef struct no{
+
+        int dado;
+        struct no *proximo;
+    }No;
+
+
+    return 0;
+}
