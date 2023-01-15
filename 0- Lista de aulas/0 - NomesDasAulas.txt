@@ -11,11 +11,11 @@ tópicos:
 - Struct                            - OK
 - Ponteiros                         - OK
 - Listas encadeadas                 - 
-- Pilhas                            - DEPOIS DA PROVA
-- Filas                             - DEPOIS DA PROVA
-- Árvores                           - DEPOIS DA PROVA
-- Tabela hash                       - DEPOIS DA PROVA
-- Grafos                            - DEPOIS DA PROVA
+- Pilhas                            - 
+- Filas                             - 
+- Árvores                           - 
+- Tabela hash                       - 
+- Grafos                            - 
 
 1 – Introdução à Linguagem C
 
