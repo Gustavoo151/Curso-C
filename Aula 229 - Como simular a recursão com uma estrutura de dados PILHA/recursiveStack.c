@@ -2,13 +2,12 @@
 #include <stdlib.h>
 
 /*
-    Aula 229: Como simular a recursao do fatorial com uma pilha?
+    Aula 229: Algoritmo feito po mim
 */
 
 typedef struct {
     int num;
 }fatores;
-
 
 
 typedef struct no{   // Criando a ligação de todos os nos
@@ -27,38 +26,46 @@ No* empilhar(No *topo, int numFac){  // Recebendo o nó topo como parametro
     } 
     else
         printf("\nErro ao alocar memoria...\n");
-
     return NULL;
 }
 
 
-void mostraConteudo(No *n){
-    printf("%d X ", n->numeros.num);
+No* desempilhar(No **topo){
+
+    if (topo != NULL){
+        No *remover = *topo;
+        *topo = remover->proximo;
+        return remover; 
+    }
+    else
+        printf("Prilha vazia!\n");
+    return NULL;
 }
 
-void imprimir(No *topo){
-    while (topo != NULL){
-        printf("%d X ", topo->numeros.num);
+
+void imprimir(No *topo, int *result){
+    while (topo != NULL){       
+        printf("%d ", topo->numeros.num);
+        *result = (*result) * topo->numeros.num;
         topo = topo->proximo;
     }
 }
 
 
-
 int main(){
-    int num;
-    No *topo = NULL;
+    int num, *result = 1;
+    No *desempilha, *topo = NULL;
 
 
     printf("Digite o numero que voce quer fazer o calculo fatorial: \n");
     scanf("%d", &num);
 
     for (int i = 0; i < num; i++){
-        topo = empilhar(&topo, num-i);
+        topo = empilhar(topo, num-i);
     }
 
-    imprimir(&topo);
-
+    imprimir(topo, &result);
+    printf("= %d", result);
 
     return 0;
 }
