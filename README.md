@@ -4,7 +4,7 @@ Arquivos do Curso de C
 
 Esse repositório serve de suporte para meus estudos na metéria de limguagem de programação 2.
 
-São um total de 331 aula da liguagem de programação C
+São um total de 331 aulas da liguagem de programação C
 que aborda diversos assuntos de uma forma bem didática.
 
 Tópicos:
