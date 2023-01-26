@@ -39,31 +39,31 @@ No* desempilhar(No **pilha){  // Usando dois ** para passar o No por referência
 }
 
 
-void imprimir(No *pilha){
+void imprimir(No *pilha){  // Recebe um ponteiro para pilha
     printf("Pilha\n");
-    while(pilha){
-        printf("%d\n", pilha->valor );
-        pilha = pilha->proximo;
+    while(pilha){  // Enquanto não for NULL mostra o valor da cada No da pilha
+        printf("%d\n", pilha->valor );  // Imprimindo os valores dos Nos
+        pilha = pilha->proximo;  // Passando o próximo valor para ser o topo da lista, caso isso não seja feito o algoritmo entra em um loop infinito.
     }
 }
 
 
-int fatorial(int num){
-    No* pilha = NULL, *remover;
+int fatorial(int num){  // Recebe o valor a ser calculado do fatorial
+    No* pilha = NULL, *remover;  // Criando a pilha e empilhando o valor incrementando menos 1 até o número ser 2
 
-    while(num > 1){
-        pilha = empilhar(pilha, num);
-        num--;
+    while(num > 1){  // Verifica até num > 1 pois o numero 1 na multiplacação é um valor nulo
+        pilha = empilhar(pilha, num);  // Empilhando os valores de num
+        num--;  // incrementando menos menos 1
     }
 
-    imprimir(pilha);
+    imprimir(pilha);  // Imprimindo a pilha
 
-    while(pilha){
-        remover = desempilhar(&pilha);
-        num = num * remover->valor;
-        free(remover);
+    while(pilha){  // Verifica se não chegou até o fim da pilha
+        remover = desempilhar(&pilha);  // Recebe o no a ser removido. Tem que passar o endereço do No, pois a função desempliha receve um ponteiro para ponteiro.
+        num = num * remover->valor;  // Numero recebe valor no que vai ser desempilha e o multiplica com os valores anterioes. Assim fazendo o cálculo do fatorial.
+        free(remover);  // Liberando da memória o No que já foi lido
     }
-    return num;  // Retornado o val
+    return num;  // Retornado o valor do fatorial
 }
 
 
