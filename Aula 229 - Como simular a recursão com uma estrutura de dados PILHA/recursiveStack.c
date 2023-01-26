@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /*
-    Aula 229: Algoritmo feito po mim
+    Aula 229: Algoritmo feito por mim
 */
 
 typedef struct {
