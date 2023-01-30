@@ -1,11 +1,11 @@
-# Curso de C - youtube
+# Curso de C
 
 Arquivos do Curso de C
 
-Esse repositório serve de suporte para meus estudos na metéria de limguagem de programação 2.
+Esse repositório serve de suporte para meus estudos da limguagem de programação C.
 
-São um total de 331 aulas da liguagem de programação C
-que aborda diversos assuntos de uma forma bem didática.
+São um total de 331 aulas da linguagem de programação C
+que aborda diversos assuntos.
 
 Tópicos:
 
