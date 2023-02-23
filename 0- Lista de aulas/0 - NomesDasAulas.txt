@@ -10,12 +10,13 @@ tópicos:
 - Funções e procedimentos           - OK
 - Struct                            - OK
 - Ponteiros                         - OK
-- Listas encadeadas                 - 
-- Pilhas                            - 
+- Listas encadeadas                 - OK
+- Pilhas                            - OK
 - Filas                             - 
-- Árvores                           - 
+- Estrutura de Dados Lista Encadeada
 - Tabela hash                       - 
-- Grafos                            - 
+- Árvores                           - 
+
 
 1 – Introdução à Linguagem C
 
@@ -380,6 +381,9 @@ Aula 307 - Como remover um nó em uma árvore binária balanceada - Árvore AVL?
 Aula 308 - Como imprimir uma Árvore Binária Balanceada - Árvore AVL?
 Aula 309 - Testando nossa Árvore Binária de Busca Balanceada - Árvore AVL
 Aula 310 - Como descobrir / imprimir o nível de um nó na Árvore Binária?
+
+14 - Outros
+
 Aula 311 - Como garantir que o usuário vai digitar um número?
 Aula 312 - Como contar as ocorrências de uma substring em uma string? 
 Aula 313 - Como descobrir todos os números primos entre 1 e 500?
