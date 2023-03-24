@@ -13,7 +13,7 @@ tópicos:
 - Listas encadeadas                 - OK
 - Pilhas                            - OK
 - Filas                             - 
-- Estrutura de Dados Lista Encadeada
+- Estrutura de Dados Lista Encadeada- 
 - Tabela hash                       - 
 - Árvores                           - 
 
