@@ -36,25 +36,24 @@ void inserirNaFila(Fila *fila, int num){
         if(fila->primeiro == NULL){  
             fila->primeiro = novo; 
             fila->ultimo = novo;
-            fila->tam++; 
         }
         else{ 
             fila->ultimo->proximo = novo;  // Acessando o ultimo nó e colocando o nó novo como próximo nele
             fila->ultimo = novo;
-            fila->tam++;
-            }
-        
+        }
+        fila->tam++; // Tirei de dentro das duas fericações porque idependete se é vázio ou não sempre vai incrementar mais um
     }
     else 
         printf("\nErro ao alocar menória.\n");
 }
 
 
-No* removerDaFila(No **fila){
+No* removerDaFila(Fila *fila){
     No *remover = NULL;  
-    if(*fila){   // se fila for diferente de NULL
-        remover = *fila;  // O nó remover recebe o conteúdo do ponteiro para ponteiro da fila
-        *fila = remover->proximo;  // Fila está recebendo o próximo nó
+    if(fila->primeiro){  // Verificando se o primeiro é NULL
+        remover = fila->primeiro;
+        fila->primeiro = remover->proximo; 
+        fila->tam++;
     }
     else 
         printf("Lista vazia!\n");
@@ -62,19 +61,23 @@ No* removerDaFila(No **fila){
 }
 
 
-void imprimirFila(No *fila){
+void imprimirFila(Fila *fila){
+    No *aux = fila->primeiro;  // Vamos ter que criar um ponteiro auxiliar para não altera o valor da fila original, pois estamos recebendo o endereço de memória da fila.
     printf("\t------------- FILA -------------\n");
-    while(fila){
-        printf("%d ", fila->valor);
-        fila = fila->proximo;
+    while(aux){
+        printf("%d ", aux->valor);
+        aux = aux->proximo;
     }
     printf("\n\t------------- FIM FILA -------------\n");
 }
 
 
 int main(){
-    No *remover, *fila = NULL;
+    No *remover;
+    Fila fila;
     int opcao, valor;
+
+    criarFila(&fila);
 
     do{
         printf("\t0 - Sair\n\t1 - Inserir\n\t2 - remover\n\t3 - Imprimir\n");
@@ -94,7 +97,7 @@ int main(){
                 }
                 break;
             case 3:
-                imprimirFila(fila);
+                imprimirFila(&fila);
                 break;
             default:
                 printf("Opcao invalida!!!\n");

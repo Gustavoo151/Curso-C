@@ -1,0 +1,17 @@
+- Filas de prioridade
+
+O que é uma fila de priridade:
+    Assim como as estruturas de dados fila são extremamente semelhantes as da filas da vida real. A fila de prioridade também também 
+    seguem a mesma ideia, ela segue exatamente os mesmo princípios.
+
+Vamos imaginar uma fila de banco:
+    Temos idoso, gestante e deficientes que têm prioridade no acesso nas filas do banco. Imagine que temos já temos uma fila
+    cheia de pessoas novas e então chega um idoso. Esse idoso têm direito por lei da ir pra frente de todos na fila ou seja 
+    ele tem prioridade na fila . Vamos imaginar esse processo como se fosse um fila na fila. Nos temos a fila sem prioriade 
+    que serão as pessoa vão ser atendida de acorodo com a ordem de chegada e na frente dessas pessoas vamos ter a um fila de 
+    prioridade. Uma estrutura de dados do tipo fila com prioridade ela implementa exatemente essa ideia. Mos temos um fila 
+    formada por qualquer tipo de elemento porém em algum momento será definido um criterio de prioridade. Por exemplo no banco
+    tem a prioridade de pessoas com mais de 60 anos serem atendidos primeiro. Então eles vão ser inseridos no inicio da fila.
+    Porém temos um detalhe muito importante, se chagar uma pessoa com prioridade e depois chegar outra essa ultima pessoa que 
+    chegou não pode ser inserida no inicio. A pessoas com prioridade que chegarem elas serão inserida na fila de prioridade 
+    e não no inicio da fila .
